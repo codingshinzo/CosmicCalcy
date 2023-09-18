@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container {
+    position: relative;
+    padding: 18px 24px 26px 33px;
+    border: 1px solid peru;
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.result input {
+    border: none;
+    outline: none;
+    text-align: right;
+    width: 95%;
+    height: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px rgba(192, 192, 192, 0.993);
+}
+
+form input {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: peru;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(71, 71, 71, 0.5);
+}
+
+span {
+    color: white;
+    position: relative;
+    bottom: 25px;
+    left: 30%;
+    padding: 5px 10px;
+    background-color: peru;
+    border-radius: 50px;
+    font-size: 15px;
+
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+    color: white;
+}
+
+
+img {
+    position: relative;
+    top: 650px;
+    right: 750px;
+
+}
+
+.image {
+    opacity: 0.15;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+
+    background-size: cover;
+    z-index: -1;
+}
+
+
+form input.equal {
+    width: 127px;
+}
+
+form input.symbol {
+    color: saddlebrown;
+}
+
+form input:active {
+    background-color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    *{
+        font-size:13px;
+    }
+    body {
+        justify-content: flex-start;
+        height: 100vh;
+        width: 100%;
+        
+        
+    }
+
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 15px 9px 17px 16px;
+    }
+
+    .result input {
+        width: 95%;
+        height: 30px;
+        padding: auto;
+    }
+
+    form input {
+        width: 39px;
+        font-size: 13px;
+        margin: 4px;
+        height: 39px;
+    }
+
+    span {
+
+        position: relative;
+        bottom: 15px;
+        left: 45%;
+        font-size: 7px;
+    }
+
+    form input.equal {
+        width: 90px;
+    }
+    
+    img {
+        position: relative;
+        top: 400px;
+        right: 40px;
+    height: 20px;
+    }
+
+
+}
