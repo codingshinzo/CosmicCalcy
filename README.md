@@ -41,7 +41,7 @@ It is a user-friendly tool suitable for both beginners and experienced users.
        HTML , CSS , JAVASCRIPT    
 ## Authors
 
-- [b.birajdar](https://github.com/codingshinzo)
+- Bhagyashri Birajdar - [b.birajdar](https://github.com/codingshinzo)
 
 
 ## 🔗 Links
