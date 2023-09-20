@@ -32,8 +32,8 @@ It is a user-friendly tool suitable for both beginners and experienced users.
 
 ## Tools & Technologies
 
-    -  Tools :-
-        --------
+    -  Tools:-
+       --------
         visual studio code
 
     -  Technologies:-
